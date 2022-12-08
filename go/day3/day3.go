@@ -15,7 +15,7 @@ func main() {
 
 func partTwo() {
 	// open a file
-	f, err := os.Open("day3Input.txt")
+	f, err := os.Open("day3/day3Input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -55,7 +55,7 @@ func processGroup(strings []string) int {
 
 func partOne() {
 	// open a file
-	f, err := os.Open("day3Input.txt")
+	f, err := os.Open("day3/day3Input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

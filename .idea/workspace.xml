@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9844ad15-35fc-4091-9c97-55dfc6cbf54a" name="Changes" comment="day2 - part 1">
-      <change afterPath="$PROJECT_DIR$/adventofcode/day3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventofcode/day3/control.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventofcode/day3/input.txt" afterDir="false" />
+    <list default="true" id="9844ad15-35fc-4091-9c97-55dfc6cbf54a" name="Changes" comment="added day 3, written in GO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode/day2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode/day2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/day3.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/day3/day3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/day3Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/go/day3/day3Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/day3test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/go/day3/day3test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go/day3" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.__init__ (3)">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode22" />
@@ -174,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670304471561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added day 3, written in GO">
+      <created>1670395854278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670395854278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +194,7 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="venv" />
     <MESSAGE value="day2 - part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2 - part 1" />
+    <MESSAGE value="added day 3, written in GO" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 3, written in GO" />
   </component>
 </project>
