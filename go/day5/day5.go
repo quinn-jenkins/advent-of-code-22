@@ -16,7 +16,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	defer f.Close()
+	defer func(f *os.File) {
+        err := f.Close()
+        if err != nil {
+            fmt.Println("Failed to close file", f)
+        }
+    }(f)
 
 	var containerLines []string
 	var moveLines []string
