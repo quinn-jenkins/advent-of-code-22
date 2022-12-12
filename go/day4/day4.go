@@ -16,7 +16,7 @@ type Assignment struct {
 
 func main() {
 	// open a file
-	f, err := os.Open("day4/day4input.txt")
+	f, err := os.Open("day4/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

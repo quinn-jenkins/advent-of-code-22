@@ -26,7 +26,7 @@ func main() {
 	TOTAL_DISK_SPACE := 70000000
 	REQUIRED_FREE_SPACE := 30000000
 	// open a file
-	f, err := os.Open("day7/day7input.txt")
+	f, err := os.Open("day7/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

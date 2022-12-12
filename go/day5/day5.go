@@ -11,17 +11,17 @@ import (
 
 func main() {
 	// open a file
-	f, err := os.Open("day5/day5input.txt")
+	f, err := os.Open("day5/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	defer func(f *os.File) {
-        err := f.Close()
-        if err != nil {
-            fmt.Println("Failed to close file", f)
-        }
-    }(f)
+		err := f.Close()
+		if err != nil {
+			fmt.Println("Failed to close file", f)
+		}
+	}(f)
 
 	var containerLines []string
 	var moveLines []string

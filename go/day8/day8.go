@@ -11,7 +11,7 @@ var ZeroChar = '0'
 
 func main() {
 	// open a file
-	f, err := os.Open("day8/day8input.txt")
+	f, err := os.Open("day8/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -15,7 +15,7 @@ type Coord struct {
 
 func main() {
 	// open a file
-	f, err := os.Open("day9/day9input.txt")
+	f, err := os.Open("day9/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
